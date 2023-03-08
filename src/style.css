@@ -1,3 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Balsamiq Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
 body {
-  background-color: bisque;
+  margin: 24px 24px;
+  width: 95%;
+}
+
+.div-recent {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 24px;
+  list-style-type: none;
+}
+ul {
+  list-style-type: none;
+}
+
+.recent-scores {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-score {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  float: right;
 }
