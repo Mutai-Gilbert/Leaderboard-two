@@ -17,7 +17,7 @@ p {
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 body {
@@ -29,23 +29,65 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  width: 49%;
   margin: 24px;
-  list-style-type: none;
-}
-ul {
-  list-style-type: none;
+  float: left;
+  position: relative;
 }
 
 .recent-scores {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 12px;
+}
+
+ul {
+  border: 2px solid #000;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 15px 15px;
+  list-style-type: none;
+}
+
+li {
+  height: 25px;
+}
+
+li:nth-child(even) {
+  background-color: #ebeaea;
 }
 
 .add-score {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  float: left;
+  width: 300px;
+  margin: 24px;
   gap: 24px;
-  float: right;
+}
+
+button {
+  width: 90px;
+  height: 35px;
+  margin-left: 20px;
+  border-radius: 5px;
+  background-color: #ebeaea;
+  border: 1px solid #000;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+input {
+  height: 35px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 0 15px;
+  border: 1px solid #000;
+  margin-bottom: 12px;
 }
