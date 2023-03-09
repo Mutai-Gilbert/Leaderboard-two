@@ -1,3 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Balsamiq Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
 body {
-  background-color: bisque;
+  margin: 24px 24px;
+  width: 95%;
+}
+
+.div-recent {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 49%;
+  margin: 24px;
+  float: left;
+  position: relative;
+}
+
+.recent-scores {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 12px;
+}
+
+ul {
+  border: 2px solid #000;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 15px 15px;
+  list-style-type: none;
+}
+
+li {
+  height: 25px;
+}
+
+li:nth-child(even) {
+  background-color: #ebeaea;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 300px;
+  margin: 24px;
+  gap: 24px;
+}
+
+button {
+  width: 90px;
+  height: 35px;
+  margin-left: 20px;
+  border-radius: 5px;
+  background-color: #ebeaea;
+  border: 1px solid #000;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+input {
+  height: 35px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 0 15px;
+  border: 1px solid #000;
+  margin-bottom: 12px;
 }

@@ -1,173 +1,171 @@
-<a name="readme-top"></a>
+# leaderboard
 
-<div align="center">
-
-  <img src="assets-README/kefi-Unearthed-5.png" alt="logo" width="280"  height="auto" />
-    <h3><b>Anna Petras for KING YESHUA - Kefi Unearthed</b></h3>
-  <br/>
-💜
-  <h3><b>Personal README Template</b></h3>
-  <br/>
-  
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
-
-<br>
+- [leaderboard](#leaderboard)
+- [📗 Table of Contents](#-table-of-contents)
+- [🫅 leaderboard ](#-leaderboard-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Deployment](#deployment)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 NAME OF PROJECT<a name="about-project"></a>
+# 🫅 leaderboard <a name="about-project"></a>
 
-**Name of Project** is a project ...complete sentence
+ > leaderboard is a website that displays scores submitted by different people. It also allows users to submit their own score
+ 
 
-<br>
 
 ## 🛠 Built With <a name="built-with"></a>
-    HTML
-    CSS
-    Javascript (ES6)
-    Webpack
-    Linters
+
+### Tech Stack <a name="tech-stack"></a>
+
+
+
+<details>
+  <summary>Languages</summary>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>Bootstrap</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://github.com/">Github</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Submit name to the list**
+- **send and receive data from API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Project Demo Image
-<br>
-<img align="center" src="assets-README/project_demo.png" alt="logo" width="100%"  height="auto" />
 
-  <br/>
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Name of Project](https://ADD LINK.git)
+> Add a link to your deployed project.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+- [Live Demo Link](https://mutai-gilbert.github.io/Leaderboard-two/dist/) 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-- Create a local directory that you want to clone the repository.
-
-- Open the command prompt in the created directory.
-
-- On the terminal run this command git clone `https://github.com/annaeliana7/ADD LINK.git`
-
-- Go to the repository folder using command prompt cd `NAME OF PROJECT`
-
-- Install the dev dependencies for linters run npm install.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Prerequisites
-
-In order to run this project you need:
-
--Any broswer
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+To get a local copy up and running, follow these steps.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-- Open the command prompt in the created directory.
+```sh
+  git clone https://github.com/Mutai-Gilbert/Leaderboard.git
+  cd to-do-list
+```
 
-- On the terminal run this command git clone https://ADD LINK.git
+### Install
 
-- Go to the repository folder using command prompt cd NAME-OF-FILE
+Install this project with:
 
-- Install the dev dependencies for linters run npm install.
---->
+```sh
+  npm install
+```
+
+### Usage
+
+To run the project in a development server, execute the following command:
+
+```sh
+  npm start
+```
+
+To to build for the production, execute the following command:
+
+```sh
+  npm run build
+```
+
+
+
+### Deployment
+```sh
+  npm run build
+```
+<a name="triangular_flag_on_post-deployment"></a>
+
+You can deploy this project using [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Author -->
+<!-- AUTHORS -->
 
-👤 **Author**
-Anna Petras
+👤 **Author1**
 
-- GitHub: [@annaeliana7](https://github.com/annaeliana7)
+👤 **Gilbert Mutai**
 
+- GitHub: [@githubhandle](https://github.com/Mutai-Gilbert)
+- Twitter: [@twitterhandle](https://twitter.com/@nerdmutai)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mutai-gilbert-2a5a42137/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- Implement some UX improvements: added transitions and/or animation.
-
-- Implement additional pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+ 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://ADD LINK.git).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project!
+If you like this project give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-💜 HaShem (Abba) and Yeshua, I LOVE YOU! 💜 Thank you!
-I HONOR + GLORIFY YOU FOREVER ... 💜
+
+ I would like to thank all my fellow micronauts.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Mutai-Gilbert/Leaderboard-two/blob/main/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<br>
-
-
-<!-- Author's message -->
-
-<div align="center">
-    <img src="assets-README/kefi-Unearthed-5.png"  alt="logo" width="250"  height="auto" />
-    <h3><b>Anna Petras for KING YESHUA - Kefi Unearthed</b></h3>
-💜
-<br>
-💜
-<br>
-💜
-<br>
-PETRAS FAMILY
