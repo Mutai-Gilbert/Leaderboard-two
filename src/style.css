@@ -30,7 +30,6 @@ body {
   align-items: flex-start;
   flex-direction: column;
   width: 49%;
-  margin: 24px;
   float: left;
   position: relative;
 }
@@ -44,12 +43,13 @@ body {
 
 ul {
   border: 2px solid #000;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  gap: 20px;
   overflow: hidden;
-  border-radius: 5px;
-  padding: 15px 15px;
+  border-radius: 10px;
+  padding: 20px;
   list-style-type: none;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 p {
@@ -88,9 +88,20 @@ button {
 
 input {
   height: 35px;
-  width: 300px;
+  width: 250px;
   border-radius: 5px;
   padding: 0 15px;
   border: 1px solid #000;
   margin-bottom: 12px;
+}
+
+.form-scores {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
 }
