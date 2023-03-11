@@ -37,7 +37,8 @@ body {
 .recent-scores {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 340px;
   margin: 12px;
 }
 
