@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Leaderboard</title>
+    <title>Leaderboard</title>
 </head>
+
 <body>
     <header>
         <h1>Leaderboard</h1>
@@ -12,40 +14,33 @@
 
     <div>
 
-    <div class="div-recent">
-        <div class="recent-scores">
-            <h2>Recent scores</h2>
-            <button type="submit"> Refresh</button>
+        <div class="div-recent">
+            <div class="recent-scores">
+                <h2>Recent scores</h2>
+                <button type="submit" class="refresh-button"> Refresh</button>
+            </div>
+            <div>
+                <ul class="scores">
+                </ul>
+            </div>
+
         </div>
-        <div>
-            <ul class="scores">
-                <li> Name: 100</li>
-                <li> Name: 20</li>
-                <li> Name: 50</li>
-                <li> Name: 78</li>
-                <li> Name: 125</li>
-                <li> Name: 77</li>
-                <li> Name: 42</li>
+        <div class="add-score">
+            <h2> Add your score</h2>
 
-            </ul>
+            <div>
+                <form action="" class="form-scores">
+                    <input type="text" name="name" class="name" placeholder="You name">
+                    <input type="text" name="score" class="score" placeholder="Your score">
+                    <div class="submit-button">
+                        <button type="submit" class="submit-form">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
-       
     </div>
-    <div class="add-score">
-        <h2> Add your score</h2>
 
-        <label for="">
-            <input type="text" name="name" class="input-name" placeholder="You name">
-            <input type="text" name="score" class="input-score" placeholder="Your score">
-        </label>
-        <div class="submit-button">
 
-        
-        <button type="submit">Submit</button>
-    </div>
-    </div>
-</div>
-
-    
 </body>
+
 </html>
